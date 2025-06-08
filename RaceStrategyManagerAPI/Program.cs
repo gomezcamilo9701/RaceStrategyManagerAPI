@@ -6,9 +6,14 @@ using RaceStrategyManager.Infrastructure.Contract;
 using RaceStrategyManager.Infrastructure.Implementation;
 using RaceStrategyManagerAPI;
 
-var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
-
 var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+
+builder.Services.AddControllers();
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 var connectionString =
     builder.Configuration.GetConnectionString("DefaultConnection")
@@ -18,31 +23,21 @@ var connectionString =
 builder.Services.AddDbContext<RaceStrategyManagerContext>(options =>
     options.UseSqlServer(connectionString));
 
-// Add services to the container.
-
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-//DI Services
-builder.Services.AddScoped<IPilotService, PilotService>();
-builder.Services.AddScoped<IStrategyService, StrategyService>();
-
-//DI Repositories
-builder.Services.AddScoped<IPilotRepository, PilotRepository>();
 builder.Services.AddScoped<IStrategyRepository, StrategyRepository>();
 builder.Services.AddScoped<ITireRepository, TireRepository>();
+builder.Services.AddScoped<IPilotRepository, PilotRepository>();
+
+builder.Services.AddScoped<IStrategyService, StrategyService>();
+builder.Services.AddScoped<IPilotService, PilotService>();
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy(name: MyAllowSpecificOrigins,
-                      policy =>
-                      {
-                          policy.AllowAnyOrigin()
-                          .AllowAnyHeader()
-                          .AllowAnyMethod();
-                      });
+    options.AddPolicy("AllowAngularApp", builder =>
+    {
+        builder.WithOrigins("http://localhost:4200")
+               .AllowAnyMethod()
+               .AllowAnyHeader();
+    });
 });
 
 var app = builder.Build();
@@ -54,7 +49,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseCors(MyAllowSpecificOrigins);
+app.UseCors("AllowAngularApp");
 
 app.UseMiddleware<ApiKeyMiddleware>();
 

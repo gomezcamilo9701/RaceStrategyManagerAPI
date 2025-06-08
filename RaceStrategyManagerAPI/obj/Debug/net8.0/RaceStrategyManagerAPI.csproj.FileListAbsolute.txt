@@ -171,3 +171,4 @@ C:\Users\kamil\OneDrive\Documentos\PruebaTecnicaAutoGermana\RaceStrategyManagerA
 C:\Users\kamil\OneDrive\Documentos\PruebaTecnicaAutoGermana\RaceStrategyManagerAPI\RaceStrategyManagerAPI\obj\Debug\net8.0\RaceStrategyManagerAPI.pdb
 C:\Users\kamil\OneDrive\Documentos\PruebaTecnicaAutoGermana\RaceStrategyManagerAPI\RaceStrategyManagerAPI\obj\Debug\net8.0\RaceStrategyManagerAPI.genruntimeconfig.cache
 C:\Users\kamil\OneDrive\Documentos\PruebaTecnicaAutoGermana\RaceStrategyManagerAPI\RaceStrategyManagerAPI\obj\Debug\net8.0\ref\RaceStrategyManagerAPI.dll
+C:\Users\kamil\OneDrive\Documentos\PruebaTecnicaAutoGermana\RaceStrategyManagerAPI\RaceStrategyManagerAPI\obj\Debug\net8.0\RaceStrategyManagerAPI.sourcelink.json
