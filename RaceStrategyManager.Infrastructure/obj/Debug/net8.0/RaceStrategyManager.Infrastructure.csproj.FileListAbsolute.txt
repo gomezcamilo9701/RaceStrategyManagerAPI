@@ -1,0 +1,17 @@
+C:\Users\kamil\OneDrive\Documentos\PruebaTecnicaAutoGermana\RaceStrategyManagerAPI\RaceStrategyManager.Infrastructure\bin\Debug\net8.0\RaceStrategyManager.Infrastructure.deps.json
+C:\Users\kamil\OneDrive\Documentos\PruebaTecnicaAutoGermana\RaceStrategyManagerAPI\RaceStrategyManager.Infrastructure\bin\Debug\net8.0\RaceStrategyManager.Infrastructure.runtimeconfig.json
+C:\Users\kamil\OneDrive\Documentos\PruebaTecnicaAutoGermana\RaceStrategyManagerAPI\RaceStrategyManager.Infrastructure\bin\Debug\net8.0\RaceStrategyManager.Infrastructure.dll
+C:\Users\kamil\OneDrive\Documentos\PruebaTecnicaAutoGermana\RaceStrategyManagerAPI\RaceStrategyManager.Infrastructure\bin\Debug\net8.0\RaceStrategyManager.Infrastructure.pdb
+C:\Users\kamil\OneDrive\Documentos\PruebaTecnicaAutoGermana\RaceStrategyManagerAPI\RaceStrategyManager.Infrastructure\bin\Debug\net8.0\RaceStrategyManager.Domain.dll
+C:\Users\kamil\OneDrive\Documentos\PruebaTecnicaAutoGermana\RaceStrategyManagerAPI\RaceStrategyManager.Infrastructure\bin\Debug\net8.0\RaceStrategyManager.Domain.pdb
+C:\Users\kamil\OneDrive\Documentos\PruebaTecnicaAutoGermana\RaceStrategyManagerAPI\RaceStrategyManager.Infrastructure\obj\Debug\net8.0\RaceStrategyManager.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\kamil\OneDrive\Documentos\PruebaTecnicaAutoGermana\RaceStrategyManagerAPI\RaceStrategyManager.Infrastructure\obj\Debug\net8.0\RaceStrategyManager.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kamil\OneDrive\Documentos\PruebaTecnicaAutoGermana\RaceStrategyManagerAPI\RaceStrategyManager.Infrastructure\obj\Debug\net8.0\RaceStrategyManager.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\kamil\OneDrive\Documentos\PruebaTecnicaAutoGermana\RaceStrategyManagerAPI\RaceStrategyManager.Infrastructure\obj\Debug\net8.0\RaceStrategyManager.Infrastructure.AssemblyInfo.cs
+C:\Users\kamil\OneDrive\Documentos\PruebaTecnicaAutoGermana\RaceStrategyManagerAPI\RaceStrategyManager.Infrastructure\obj\Debug\net8.0\RaceStrategyManager.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\kamil\OneDrive\Documentos\PruebaTecnicaAutoGermana\RaceStrategyManagerAPI\RaceStrategyManager.Infrastructure\obj\Debug\net8.0\RaceStra.313BAC51.Up2Date
+C:\Users\kamil\OneDrive\Documentos\PruebaTecnicaAutoGermana\RaceStrategyManagerAPI\RaceStrategyManager.Infrastructure\obj\Debug\net8.0\RaceStrategyManager.Infrastructure.dll
+C:\Users\kamil\OneDrive\Documentos\PruebaTecnicaAutoGermana\RaceStrategyManagerAPI\RaceStrategyManager.Infrastructure\obj\Debug\net8.0\refint\RaceStrategyManager.Infrastructure.dll
+C:\Users\kamil\OneDrive\Documentos\PruebaTecnicaAutoGermana\RaceStrategyManagerAPI\RaceStrategyManager.Infrastructure\obj\Debug\net8.0\RaceStrategyManager.Infrastructure.pdb
+C:\Users\kamil\OneDrive\Documentos\PruebaTecnicaAutoGermana\RaceStrategyManagerAPI\RaceStrategyManager.Infrastructure\obj\Debug\net8.0\RaceStrategyManager.Infrastructure.genruntimeconfig.cache
+C:\Users\kamil\OneDrive\Documentos\PruebaTecnicaAutoGermana\RaceStrategyManagerAPI\RaceStrategyManager.Infrastructure\obj\Debug\net8.0\ref\RaceStrategyManager.Infrastructure.dll

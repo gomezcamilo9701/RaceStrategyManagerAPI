@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36202.13 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaceStrategyManagerAPI", "RaceStrategyManagerAPI\RaceStrategyManagerAPI.csproj", "{72E4BF86-4FBE-4161-BE02-F1F818D59D59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.API", "1.API", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Application", "2.Application", "{B84A0A04-870E-4051-8E65-5F1D318FBD2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Infrastructure", "3.Infrastructure", "{25303C50-28C5-43E8-8B9D-1EF61A9CF188}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Domain", "4.Domain", "{BCD3ACB9-450F-4AE0-9399-1674FE72D789}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaceStrategyManager.Application", "RaceStrategyManager.Application\RaceStrategyManager.Application.csproj", "{014CD539-F96B-40E1-83B6-EF6E70F2C83C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaceStrategyManager.Infrastructure", "RaceStrategyManager.Infrastructure\RaceStrategyManager.Infrastructure.csproj", "{432039A2-823C-45B7-9028-B8927F971FE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaceStrategyManager.Domain", "RaceStrategyManager.Domain\RaceStrategyManager.Domain.csproj", "{DB45EF32-B36B-4BAD-A459-B637DCF743C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72E4BF86-4FBE-4161-BE02-F1F818D59D59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72E4BF86-4FBE-4161-BE02-F1F818D59D59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72E4BF86-4FBE-4161-BE02-F1F818D59D59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72E4BF86-4FBE-4161-BE02-F1F818D59D59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{014CD539-F96B-40E1-83B6-EF6E70F2C83C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{014CD539-F96B-40E1-83B6-EF6E70F2C83C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{014CD539-F96B-40E1-83B6-EF6E70F2C83C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{014CD539-F96B-40E1-83B6-EF6E70F2C83C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{432039A2-823C-45B7-9028-B8927F971FE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{432039A2-823C-45B7-9028-B8927F971FE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{432039A2-823C-45B7-9028-B8927F971FE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{432039A2-823C-45B7-9028-B8927F971FE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB45EF32-B36B-4BAD-A459-B637DCF743C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB45EF32-B36B-4BAD-A459-B637DCF743C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB45EF32-B36B-4BAD-A459-B637DCF743C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB45EF32-B36B-4BAD-A459-B637DCF743C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{72E4BF86-4FBE-4161-BE02-F1F818D59D59} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{014CD539-F96B-40E1-83B6-EF6E70F2C83C} = {B84A0A04-870E-4051-8E65-5F1D318FBD2A}
+		{432039A2-823C-45B7-9028-B8927F971FE3} = {25303C50-28C5-43E8-8B9D-1EF61A9CF188}
+		{DB45EF32-B36B-4BAD-A459-B637DCF743C6} = {BCD3ACB9-450F-4AE0-9399-1674FE72D789}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BFCEAC5D-9792-43F5-88A9-76025651B43B}
+	EndGlobalSection
+EndGlobal

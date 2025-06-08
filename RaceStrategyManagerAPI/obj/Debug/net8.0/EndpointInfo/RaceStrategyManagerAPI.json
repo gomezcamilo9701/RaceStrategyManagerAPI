@@ -1,0 +1,188 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "RaceStrategyManagerAPI",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/pilot/getAll": {
+      "get": {
+        "tags": [
+          "Pilot"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PilotDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PilotDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PilotDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/strategy/optimal": {
+      "get": {
+        "tags": [
+          "Strategy"
+        ],
+        "parameters": [
+          {
+            "name": "maxLaps",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "pilotId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/StrategyDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/StrategyDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/StrategyDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "PilotDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "team": {
+            "type": "string",
+            "nullable": true
+          },
+          "nationality": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "StintDto": {
+        "type": "object",
+        "properties": {
+          "tireId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tireType": {
+            "type": "string",
+            "nullable": true
+          },
+          "laps": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "fuelConsumption": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "StrategyDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pilotId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "totalLaps": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "averagePerformance": {
+            "type": "number",
+            "format": "double"
+          },
+          "totalFuelConsumption": {
+            "type": "number",
+            "format": "double"
+          },
+          "stints": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/StintDto"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

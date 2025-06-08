@@ -1,0 +1,5 @@
+bin/ obj/ *.user *.suo *.cache *.csproj.user .vs/ *.bin
+node_modules/ dist/ .angular/ npm-debug.log yarn-error.log
+*.log *.tmp *.temp *.swp .DS_Store Thumbs.db
+.idea/ *.iml .vscode/
+.vs/

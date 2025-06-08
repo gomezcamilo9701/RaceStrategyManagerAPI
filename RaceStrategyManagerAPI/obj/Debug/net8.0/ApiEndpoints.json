@@ -1,0 +1,53 @@
+[
+  {
+    "ContainingType": "RaceStrategyManagerAPI.Controllers.PilotController",
+    "Method": "GetAllPilotsAsync",
+    "RelativePath": "api/pilot/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[RaceStrategyManager.Application.Dto.PilotDto, RaceStrategyManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RaceStrategyManagerAPI.Controllers.StrategyController",
+    "Method": "GetOptimalStrategy",
+    "RelativePath": "api/strategy/optimal",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "maxLaps",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pilotId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[RaceStrategyManager.Application.Dto.StrategyDto, RaceStrategyManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
